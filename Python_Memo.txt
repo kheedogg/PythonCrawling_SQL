@@ -1,0 +1,55 @@
+https://github.com/cybermin/pythoncrawling
+
+pnumin@pusan.ac.kr
+
+CSS 참고 URL : www.w3schools.com/css
+
+https://www.anaconda.com/
+
+
+공공데이터포털 : https://www.data.go.kr/
+영화진흥위원회 : http://kobis.or.kr/kobis/business/main/main.do
+영화진흥위원회 api : https://www.kobis.or.kr/kobisopenapi/homepg/apiservice/searchServiceInfo.do
+(구)기상청 : https://www.weather.go.kr/ >> (구)날씨누리 바로가기 클릭 >> 메뉴 생활과 산업의 인터넷 클릭
+				>> RSS 클릭 >> 알고싶은 동네 지역 입력 후 RSS 버튼을 눌러 URL 받기
+
+
+
+감정 분석 : https://www.adams.ai/  ==> 제이쓴 데이터 형태
+
+
+MaridDB 설치 : http://mariadb.com/downloads/
+
+maria db
+show databases ;
+create database mydb ;	#my db라는 데이터베이스 실행
+use mydb ;
+show tables ;
+create table codes {
+	fullcd char(07) primary key,
+	kornm varchar(20) not null,
+	engnm varchar(20)
+)
+show tables ;	# codes라는 table 생성된 것 확인 가능
+desc codes ; 
+
+select * from codes ;
+insert into codes (fullcd, kornm, engnm)
+values ('0105001', '서 울 시', '') ;
+
+
+
+
+
+
+https://github.com/tqdm/tqdm	# progress바 python내 추가기능
+
+
+
+
+
+
+
+
+
+
